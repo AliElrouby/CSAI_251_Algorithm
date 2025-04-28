@@ -51,11 +51,6 @@ void Knap_Sack(int size,vector<int> values,vector<int> weights,int capacity){
     }
     cout<<endl;
     cout<<"The KnapSack is Full !";
-
-
-
-
-
 }
 
 
