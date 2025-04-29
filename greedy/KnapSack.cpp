@@ -24,6 +24,7 @@ void Knap_Sack(int size,vector<int> values,vector<int> weights,int capacity){
     vector<vector<int>> items(size,vector<int>(2));
     double profit=0;
     double ratio;
+    
     for (int i=0;i<size;i++){
         items[i][0]=values[i];
         items[i][1]=weights[i];

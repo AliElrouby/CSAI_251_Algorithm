@@ -8,7 +8,7 @@ using namespace std;
 void MinCost(int size,vector<int> Coins){
     sort(Coins.begin(),Coins.end());
     int cost=0;
-    int diamond;
+     
     int i=0;
     while(Coins.size()>1){   
         cost+=min(Coins[i],Coins[i+1]);
